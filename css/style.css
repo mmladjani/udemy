@@ -1,0 +1,20 @@
+p {
+  color: red
+}
+
+/* * { ////////////star selector/////////
+  border: 1px solid black;
+} */
+
+
+/* li a { //////////descendent selector
+  border: 1px solid black;
+} */
+
+/* h6 + p { ///// adjancent selector
+  border: 1px solid black;
+} */
+
+input[type="checkbox"] {
+  background: blue;
+}
