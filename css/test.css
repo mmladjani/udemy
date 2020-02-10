@@ -15,7 +15,7 @@ li {
 }
 
 p {
-  background-color: blue;
+  background-color: yellow;
 }
 
 
@@ -42,4 +42,12 @@ input[type="text"] {
 
 div p {
   font-size: 25px;
+}
+
+diV:nth-of-type(3) p {
+  background: pink;
+}
+
+div:nth-of-type(2) p:nth-of-type(2) {
+  border: 5px solid black;
 }

@@ -1,0 +1,21 @@
+
+p {
+  font-family: Arial;
+}
+
+
+h1 {
+  font-family: Roboto;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+span {
+  font-size: 2em;
+}
