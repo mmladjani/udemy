@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  background-image: url(../img/banner3.jpg);
+  width: 100%;
+  align-items: center;
+
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,68 @@
+body {
+  font-family: 'Merriweather', serif;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.top-wrapper {
+  border: 1px solid black;
+}
+
+.top-wrapper table tr img {
+  width: 150px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+#title-top {
+  width: 100%;
+  background-color: #B52946;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+
+#title-top tr td:nth-child(1){
+  width: 170px;
+}
+
+.reward {
+  margin: 0px auto;
+  text-align: center;
+  width: 80%;
+
+}
+
+.wanted-images {
+  margin: 0px auto;
+}
+
+
+
+.wanted-images tr td img {
+  height: 200px;
+}
+
+.wanted-images tr td:nth-last-of-type(2) img {
+  height: 200px;
+  width:300px;
+}
+
+.suspect-info table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+
+}
+
+.suspect-info table tr td {
+  border: 1px solid black;
+}
+
+.suspect-info table tr th {
+  border: 1px solid black;
+  text-align: left;
+}

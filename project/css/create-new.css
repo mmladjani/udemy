@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+}
+
+.main-wrapper {
+  width: 90%;
+  margin: 0px auto;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+fieldset input:first-of-type {
+  margin-top: 5px;
+}
+
+fieldset input {
+  margin-bottom: 10px;
+}
