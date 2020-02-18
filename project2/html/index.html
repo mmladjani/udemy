@@ -5,61 +5,75 @@
     <title>Some website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/phone.css">
+    <link rel="stylesheet"  media='screen and (min-width: 400px)' href="../css/style.css">
+    <link rel='stylesheet' media='screen and (min-width: 400px) and (max-width: 799px)' href='../css/phone.css'>
+    <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1024px)' href='../css/tablet.css'>
+
   </head>
   <body>
 
-    <section>
+    <header>
 
       <div class="heading centered">
        <p>We shape our buildings thereafter they shape us</p>
        <button type="button" name="button">Read more</button>
       </div>
 
-    </section>
+      <section id=logo-menu>
 
-    <section id=logo-menu>
+        <div class="logo">
+          <img src="../img/cat-1484725_640.png" alt="logo-cat">
+        </div>
 
-      <div class="logo">
-        <img src="../img/cat-1484725_640.png" alt="logo-cat">
-      </div>
-
-      <nav class="main-nav centered">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+        <nav class="main-nav centered">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
 
       </section>
 
-      <section id="main-contents">
+    </header>
 
-        <div class="main-content centered">
-          <h2>Who We Are</h2>
-          <img src="../img/arrow-2085195_640.png" alt="list-img">
+    <section id="main-contents">
+
+      <div class="main-content centered">
+        <h2>Who We Are</h2>
+        <img src="../img/arrow-2085195_640.png" alt="list-img">
+      </div>
+
+      <div class="about-us-listed">
+
+        <div class="about-us-tablet">
+          <div class="left-side">
+            <h3>Welcome to Our Build Estate</h3>
+
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam."</p>
+
+            <ul>
+              <li>Internation Office Buildings</li>
+              <li>Appartment On Premier House</li>
+              <li>Prices Are Low & Parking Allowance</li>
+              <li>Best Design Architecture</li>
+            </ul>
+          </div>
+          <div class="right-side">
+              <img src="../img/banner3.jpg" alt="">
+          </div>
+
         </div>
 
-        <div class="about-us-listed">
-          <h3>Welcome to Our Build Estate</h3>
+        <div class="left-side custom-left">
 
-          <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."</p>
+          <h3>We Make You Dream Home</h3>
 
-          <ul>
-            <li>Internation Office Buildings</li>
-            <li>Appartment On Premier House</li>
-            <li>Prices Are Low & Parking Allowance</li>
-            <li>Best Design Architecture</li>
-          </ul>
-
-          <img src="../img/banner3.jpg" alt="">
-
-          <h3>Welcome to Our Build Estate</h3>
-
-          <p>"If you can build buildings, why sit on the beach? We alwats thing of buildings in their settings, but so do other architects."</p>
+          <p>"If you can build buildings, why sit on the beach? We alwats thing
+  of buildings in their settings, but so do other architects."</p>
 
           <ul>
             <li>Consectetur Adipisicing</li>
@@ -67,96 +81,150 @@
             <li>Dolore Magna Aliqua</li>
             <li>Ut Enim Ad Minim Veniam</li>
           </ul>
-
         </div>
 
-        <div class="main-content centered">
-          <h2>What people say</h2>
-          <img src="../img/arrow-2085195_640.png" alt="list-img">
-        </div>
+    </div>
 
-        <div class="reviews centered">
-          <div class="reviewer">
-            <div class="character">
-              <img src="../img/t1.jpg" alt="">
-              <div class="rating">
-                <p>Williamson</p>
-                <div class="stars">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                </div>
+      <div class="main-content centered">
+        <h2>What people say</h2>
+        <img src="../img/arrow-2085195_640.png" alt="list-img">
+      </div>
+
+      <div class="reviews centered">
+        <div class="reviewer">
+          <div class="character">
+            <img src="../img/t1.jpg" alt="">
+            <div class="rating">
+              <p>Williamson</p>
+              <div class="stars">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
           </div>
-          <div class="reviewer">
-            <div class="character">
-              <img src="../img/t2.jpg" alt="">
-              <div class="rating">
-                <p>Jennifer Lopez</p>
-                <div class="stars">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                </div>
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        </div>
+        <div class="reviewer">
+          <div class="character">
+            <img src="../img/t2.jpg" alt="">
+            <div class="rating">
+              <p>Jennifer Lopez</p>
+              <div class="stars">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
           </div>
-          <div class="reviewer">
-            <div class="character">
-              <img src="../img/t3.jpg" alt="">
-              <div class="rating">
-                <p>Milka Canic</p>
-                <div class="stars">
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star-half-o"></span>
-                </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud</p>
+        </div>
+        <div class="reviewer">
+          <div class="character">
+            <img src="../img/t3.jpg" alt="">
+            <div class="rating">
+              <p>Milka Canic</p>
+              <div class="stars">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
               </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
           </div>
-
+          <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
         </div>
-      </section>
 
-      <section id="social">
-        <div class="main-content centered">
-          <h2>Get In Touch With Us</h2>
-          <img src="../img/arrow-2085195_640.png" alt="list-img">
-        </div>
-        <div class="contact-info">
-          <div class="green">
-            <h3>Contact Us</h3>
-            <div class="inline-images">
-              <p><i class="fa fa-phone" aria-hidden="true"></i> +0(12) 000 123 3120</p>
-              <p><i class="fa fa-envelope-o" aria-hidden="true"></i> mail@example.com</p>
-            </div>
-          </div>
-          <div class="red">
-            <h3>Connect With Us</h3>
-            <div class="inline-social">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </div>
-          </div>
-          <div class="blue">
-            <h3>Address</h3>
+      </div>
+    </section>
 
+    <section id="social">
+      <div class="main-content centered">
+        <h2>Get In Touch With Us</h2>
+        <img src="../img/arrow-2085195_640.png" alt="list-img">
+      </div>
+      <div class="contact-info">
+        <div class="green">
+          <h3>Contact Us</h3>
+          <div class="inline-images">
+            <p><i class="fa fa-phone" aria-hidden="true"></i>  +0(12) 000 123
+3120</p>
+            <p><i class="fa fa-envelope-o" aria-hidden="true"></i>
+mail@example.com</p>
           </div>
         </div>
-      </section>
+        <div class="red">
+          <h3>Connect With Us</h3>
+          <div class="inline-social">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="blue">
+          <h3>Address</h3>
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i>  Bulevar
+Mihajla Pupina 10, 11070 Beograd</p>
+        </div>
+        <div class="contact-info-home">
+          <img src="../img/house.png" alt="house">
+        </div>
+      </div>
+      <div class="centered">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="100%" height="500" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=blue%20grid&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0"
+              marginwidth="0">
+            </iframe>
+          </div>
+        </div>
+      </div>
 
+      <div class="main-content centered">
+        <h2>Get In Touch With Us</h2>
+        <img src="../img/arrow-2085195_640.png" alt="list-img">
+      </div>
+
+      <div class="form-wrapper">
+        <form class="input-form" action="index.html" method="get">
+          <div class="inline-input">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="Telephone" placeholder="Name">
+          </div>
+          <textarea name="message" rows="7" placeholder="Message"></textarea><br>
+          
+          <button type="submit" name="button">Submit</button>
+
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-nav">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Stats</li>
+          <li>Agents</li>
+          <li>Testimonials</li>
+        </ul>
+        <p>&#9400; 2017 Build Estate. All Right Resereved.</p>
+      </div>
+    </footer>
 
 
   </body>
