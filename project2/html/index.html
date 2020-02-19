@@ -5,36 +5,38 @@
     <title>Some website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet"  media='screen and (min-width: 400px)' href="../css/style.css">
-    <link rel='stylesheet' media='screen and (min-width: 400px) and (max-width: 799px)' href='../css/phone.css'>
-    <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1024px)' href='../css/tablet.css'>
+
+    <link rel='stylesheet' media='screen and (min-width: 300px) and (max-width: 799px)' href='../css/phone.css'>
+    <link rel='stylesheet' media='screen and (min-width: 800px) and (max-width: 1023px)' href='../css/tablet.css'>
+    <link rel="stylesheet" media='screen and (min-width: 1024px)' href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
 
   </head>
   <body>
 
-    <header>
+    <header class="bck-image">
 
-      <div class="heading centered">
-       <p>We shape our buildings thereafter they shape us</p>
-       <button type="button" name="button">Read more</button>
-      </div>
-
-      <section id=logo-menu>
-
-        <div class="logo">
-          <img src="../img/cat-1484725_640.png" alt="logo-cat">
+        <div class="heading centered">
+         <p>We shape our buildings thereafter they shape us</p>
+         <button type="button" name="button">Read more</button>
         </div>
 
-        <nav class="main-nav centered">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <section id=logo-menu>
 
-      </section>
+          <div class="logo">
+            <img src="../img/cat-1484725_640.png" alt="logo-cat">
+          </div>
+
+          <nav class="main-nav centered">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+        </section>
 
     </header>
 
@@ -45,9 +47,9 @@
         <img src="../img/arrow-2085195_640.png" alt="list-img">
       </div>
 
-      <div class="about-us-listed">
+      <div class="about-us-listed grid-container">
 
-        <div class="about-us-tablet">
+        <div class="about-us-tablet grid-item-left">
           <div class="left-side">
             <h3>Welcome to Our Build Estate</h3>
 
@@ -68,7 +70,7 @@
 
         </div>
 
-        <div class="left-side custom-left">
+        <div class="left-side custom-left grid-item-right">
 
           <h3>We Make You Dream Home</h3>
 
@@ -191,7 +193,6 @@ Mihajla Pupina 10, 11070 Beograd</p>
           </div>
         </div>
       </div>
-
       <div class="main-content centered">
         <h2>Get In Touch With Us</h2>
         <img src="../img/arrow-2085195_640.png" alt="list-img">
@@ -205,7 +206,7 @@ Mihajla Pupina 10, 11070 Beograd</p>
             <input type="text" name="Telephone" placeholder="Name">
           </div>
           <textarea name="message" rows="7" placeholder="Message"></textarea><br>
-          
+
           <button type="submit" name="button">Submit</button>
 
         </form>
